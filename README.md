@@ -72,6 +72,7 @@ scrapy shell
 fetch('https://www.theguardian.com/au)
 ```
 We should see a response like this:
+![image](https://github.com/user-attachments/assets/4b62d81c-0bf7-44a4-a1a8-0c2c12f02604)
 
 
 
