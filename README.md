@@ -74,8 +74,20 @@ fetch('https://www.theguardian.com/au)
 We should see a response like this:
 ![image](https://github.com/user-attachments/assets/4b62d81c-0bf7-44a4-a1a8-0c2c12f02604)
 
+3. Then you can use the response to find in easier way your own id's and classes. Example:
+   ```
+   response.css('a.dcr-lv2v9o').getall()
+   ```
 
+PHASE 4: before run the code make sure to adjust the project_id, dataset_id, table_id and key_path variables based on your Google BigQuery project setup. Also, you need to exit the Scrapy shell and run the code on the newsscraper directory, use the folloing command to run the code:
 
+```
+scrapy crawl newspider
+```
 
-make sure to adjust the project_id, dataset_id, table_id and key_path variables based on your Google BigQuery project setup 
+# **The Challenges I Faced While Runing The Code" 
+The code is running without any issues, and it is extracting data. However, the resulting file is coming up empty. Scrapy is starting correctly, opening the main page, and then closing without scraping any items. This suggests that either no links are being found to continue the scraping process, or there's an issue with the scraping logic itself.
+
+Since I’ve confirmed that the link selector (article_links = response.css('a::attr(href)').extract()) is indeed extracting data, it indicates that the problem lies within the logic I’m using. Although I can manually extract data in the terminal, the main code isn’t performing as expected. Additionally, I’ve verified that GCP is correctly configured for authentication with BigQuery and that the path to the JSON credentials file is accurate.
+That means I have to study more and find out the solution for my bug :D
 
