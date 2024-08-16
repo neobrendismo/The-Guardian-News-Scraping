@@ -79,7 +79,8 @@ We should see a response like this:
    response.css('a.dcr-lv2v9o').getall()
    ```
 
-# PHASE 5: before run the code make sure to adjust the project_id, dataset_id, table_id and key_path variables based on your Google BigQuery project setup. Also, you need to exit the Scrapy shell and run the code on the newsscraper directory, use the folloing command to run the code:
+# PHASE 5: Run the code
+Before run the code make sure to adjust the project_id, dataset_id, table_id and key_path variables based on your Google BigQuery project setup. Also, you need to exit the Scrapy shell and run the code on the newsscraper directory, use the folloing command to run the code:
 
 ```
 scrapy crawl newspider
