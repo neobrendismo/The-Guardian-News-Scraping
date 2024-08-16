@@ -1,0 +1,1 @@
+The challenge of this project is to create a solution that crawls for articles from a news website, cleanses the response and stores in BigQuery. The website choosed is the [The Guardian](https://www.theguardian.com/au) and the aplication used a framework called [Scrapy](https://scrapy.org/) 
