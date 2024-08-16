@@ -85,7 +85,7 @@ PHASE 4: before run the code make sure to adjust the project_id, dataset_id, tab
 scrapy crawl newspider
 ```
 
-# **The Challenges I Faced While Runing The Code" 
+# **The Challenges I Faced While Runing The Code** 
 The code is running without any issues, and it is extracting data. However, the resulting file is coming up empty. Scrapy is starting correctly, opening the main page, and then closing without scraping any items. This suggests that either no links are being found to continue the scraping process, or there's an issue with the scraping logic itself.
 
 Since I’ve confirmed that the link selector (article_links = response.css('a::attr(href)').extract()) is indeed extracting data, it indicates that the problem lies within the logic I’m using. Although I can manually extract data in the terminal, the main code isn’t performing as expected. Additionally, I’ve verified that GCP is correctly configured for authentication with BigQuery and that the path to the JSON credentials file is accurate.
