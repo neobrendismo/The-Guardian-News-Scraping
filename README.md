@@ -19,7 +19,7 @@ The objective of this project is to develop a solution that crawls news articles
     google-cloud-bigquery
     google-auth
 
-# PHASE 2:  **Setting up environment to start the Scrapy Project **
+# PHASE 2:  **Setting up environment to start the Scrapy Project**
 1. Install virtualenv in your Windows command shell, Powershell, or other terminal you are using.
 
 ```
