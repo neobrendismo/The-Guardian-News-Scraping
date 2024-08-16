@@ -25,3 +25,5 @@ PHASE 2:  **Setting Up Environment & Scrapy to start the Scrapy Project **
 ```
 pip install virtualenv
 ```
+2. Navigate to the folder where you want to create the virtual environment, and run the virtualenv command. In my case:
+``  cd \The-Guardian-News-Scraping> ``
