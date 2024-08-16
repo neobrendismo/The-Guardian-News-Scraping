@@ -22,5 +22,5 @@ PHASE 1: **[Google Cloud Plataform(GCP) Configuration](https://cloud.google.com/
 PHASE 2:  **Setting Up Environment & Scrapy to start the Scrapy Project **
 1. Install virtualenv in your Windows command shell, Powershell, or other terminal you are using.
 
-    ``pip install virtualenv``
+    pip install virtualenv
 
